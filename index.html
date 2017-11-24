@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="digital-7.ttf">
+</head>
+
+<body>
+
+    <table>
+
+        <tr>
+            <th id = "readout" colspan="4"></th>
+        </tr>
+        <tr>
+            <td class="red">AC</td>
+            <td id = "clearButton" class="red">CE</td>
+            <td onclick = "percent()" id = "percentButton">%</td>
+            <td onclick= "divide()" id= "divideButton">/</td>
+        </tr>
+        <tr>
+            <td onclick="numbers(7)">7</td>
+            <td onclick="numbers(8)">8</td>
+            <td onclick="numbers(9)">9</td>
+            <td onclick="multiply()">x</td>
+        </tr>
+        <tr>
+            <td onclick="numbers(4)">4</td>
+            <td onclick="numbers(5)">5</td>
+            <td onclick="numbers(6)">6</td>
+            <td onclick ="subtract()" class="minus">-</td>
+        </tr>
+        <tr>
+            <td onclick="numbers(1)">1</td>
+            <td onclick="numbers(2)">2</td>
+            <td onclick="numbers(3)">3</td>
+            <td onclick="add()">+</td>
+        </tr>
+        <tr>
+            <td onclick="numbers(0)">0</td>
+            <td onclick ="numbers('.')">.</td>
+            <td onclick="equals()">=</td>
+            <td onclick ="negate('-')" class="negpos">-/+</td>
+        </tr>
+
+
+    </table>
+    <script src="app.js"></script>
+</body>
+
+</html>

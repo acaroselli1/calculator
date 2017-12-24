@@ -19,6 +19,7 @@ table{
     border-radius:1vw;
     border-spacing:1vw;
     background-color:grey;
+    background-image:url('https://img00.deviantart.net/b842/i/2009/008/4/4/brushed_metal_background_by_kamoodle.jpg');
     /* background-image:url("http://www.myfreetextures.com/wp-content/uploads/2011/06/brushedsteel7.jpg"); */
     box-shadow: 0px 0px 20px 5px black;
 }
@@ -33,9 +34,12 @@ td{
     border-radius:1vw;
     box-shadow: -2px 2px 4px black;
     font-family:Arial;
-    font-size:150%;
+    font-size:175%;
 }
 
+td:hover{
+    opacity:.75;
+}
 th{
     height:7.5vh;
     background-color:black;
@@ -54,9 +58,22 @@ th{
 }
 
 .multiply{
-    font-size:125%;
+    font-size:200%;
 }
 
 .minus{
+    font-size:175%;
+}
+
+#divideButton{
     font-size:200%;
 }
+
+#percentButton{
+    font-size:125%;
+}
+#allClearButton, #clearEntryButton{
+color:black;
+font-weight:bold;
+}
+

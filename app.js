@@ -65,6 +65,13 @@ function equals() {
     displayedNum = [];
 }
 /*
+$(function() {
+    $("table").draggable();
+  })   
+
+*/
+
+/*
 function addSubMultDiv(operation) {
     count++;
     if(runningTotal.indexOf(operation) == -1){

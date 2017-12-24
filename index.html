@@ -18,34 +18,34 @@
             <th id = "readout" colspan="4"></th>
         </tr>
         <tr>
-            <td class="red">AC</td>
-            <td id = "clearButton" class="red">CE</td>
+            <td id = "allClearButton" class="red">AC</td>
+            <td id = "clearEntryButton" class="red">CE</td>
             <td onclick = "percent()" id = "percentButton">%</td>
-            <td onclick= "divide()" id= "divideButton">/</td>
+            <td onclick= "calculate('/')" id= "divideButton">/</td>
         </tr>
         <tr>
             <td onclick="numbers(7)">7</td>
             <td onclick="numbers(8)">8</td>
             <td onclick="numbers(9)">9</td>
-            <td onclick="multiply()">x</td>
+            <td onclick="calculate('*')">x</td>
         </tr>
         <tr>
             <td onclick="numbers(4)">4</td>
             <td onclick="numbers(5)">5</td>
             <td onclick="numbers(6)">6</td>
-            <td onclick ="subtract()" class="minus">-</td>
+            <td onclick ="calculate('-')" class="minus">-</td>
         </tr>
         <tr>
             <td onclick="numbers(1)">1</td>
             <td onclick="numbers(2)">2</td>
             <td onclick="numbers(3)">3</td>
-            <td onclick="add()">+</td>
+            <td onclick="calculate('+')">+</td>
         </tr>
         <tr>
             <td onclick="numbers(0)">0</td>
             <td onclick ="numbers('.')">.</td>
             <td onclick="equals()">=</td>
-            <td onclick ="negate('-')" class="negpos">-/+</td>
+            <td onclick ="calculate('-')" class="negpos">-/+</td>
         </tr>
 
 

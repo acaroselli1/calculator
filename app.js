@@ -64,12 +64,25 @@ function equals() {
     runningTotal = [];
     displayedNum = [];
 }
-/*
+
+
+/*var buttons = document.getElementsByTagName('td');
+
+for (var i=0;i<buttons.length;i++){
+    buttons[i].onclick = boxShadow;
+}
+*/
+function boxShadow(){
+    document.getElementById('readout').style.boxShadow = "0px -4px 20px white inset";
+}
+
 $(function() {
-    $("table").draggable();
+   /* $("table").draggable({delay:3000});*/
+    $("table").draggable({cursor:"crosshair"});
+    $("table").draggable({delay:2500});
   })   
 
-*/
+
 
 /*
 function addSubMultDiv(operation) {

@@ -12,8 +12,8 @@ body{
 table{
     margin-top:20vh;
     border:1px solid black;
-    width:25vw;
-    height:60vh;
+    width:24vw;
+    height:65vh;
     margin-left:auto;
     margin-right:auto;
     border-radius:1vw;
@@ -25,27 +25,33 @@ table{
 }
 
 td{
-    width:5vw;
-    height:5vh;
+    width:6vw;
+    height:6vh;
     border:1px solid black;
     text-align:center;
     background-color:black;
     color:white;
-    border-radius:1vw;
+    border-radius:4vw;
     box-shadow: -2px 2px 4px black;
     font-family:Arial;
     font-size:175%;
 }
 
 td:hover{
-    opacity:.75;
+    /*opacity:.75;*/
+    background-color: navy;
 }
+
+td:active{
+    background-color:lightblue;
+}
+
 th{
-    height:7.5vh;
+    height:10vh;
     background-color:black;
     text-align:right;
     color:white;
-    font-size:5vh;
+    font-size:300%;
     font-family:"Digital-7";
 }
 .red{
@@ -75,5 +81,7 @@ th{
 #allClearButton, #clearEntryButton{
 color:black;
 font-weight:bold;
+font-size:5vw;
+font-size:100%;
 }
 
